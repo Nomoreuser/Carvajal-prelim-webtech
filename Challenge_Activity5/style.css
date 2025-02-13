@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+.down{
+    height: 100vh;
+    width: 100vw;
+}
+.fruits {
+    background-color: aliceblue;
+    border: 2px solid rgba(175, 171, 171, 0.842);
+    height: 500px;
+    width: 400px;
+    float: right;
+    margin-top: 14%;
+    margin-right: 2%;
+    border-radius: 0 25px 0 25px;
+}
+#ll{
+    margin-right: 17%;
+}
+img{
+    margin-left: 10%;
+    height: 300px;
+    width: 300px;
+}
+
+h1, p{
+    width: 100%;
+    text-align: center;
+}
+
+.upper{
+    background-image: url('https://media.istockphoto.com/id/1418628408/vector/abstract-blurred-gradient-background-colours-with-dynamic-effect.jpg?s=612x612&w=0&k=20&c=v7ja1vfncSbHdNsgyjbtaiOPiexqUOLhRW_4L3PQ1ww=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+nav{
+    background-color:transparent;
+    height: 60px;
+    width: 100%;
+}
+.button{
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.445);
+    border: 1px solid black;
+    padding: 10px 0 ;
+    width: 10%;
+    margin: 0 auto;
+}
+.button:active{
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+.cc{
+    height: 50px;
+    width: 50px; 
+    border-radius: 50%; 
+    background-color: rgb(150, 206, 255);
+    margin: 0 0 0 15px;
+}
